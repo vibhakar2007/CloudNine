@@ -31,64 +31,64 @@ img {
 }
 
 input,
-button{
-    background: none;
-    border: none;
-    color: inherit;
-    font: inherit;
+button {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
 }
 
 input {
-    width: 100%;
+  width: 100%;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 sub {
-    vertical-align: baseline;
+  vertical-align: baseline;
 }
 
 sup {
-    vertical-align: top;
+  vertical-align: top;
 }
 
 sub,
 sup {
-    font-size: 0.75em;
+  font-size: 0.75em;
 }
 
 html {
-    font-family: var(--ff-nunito-sans);
-    font-size: 10px;
-    scroll-behavior: smooth;
+  font-family: var(--ff-nunito-sans);
+  font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: var(--background);
-    color: var(--on-background);
-    font-size: var(--body-3);
-    overflow: hidden;
+  background-color: var(--background);
+  color: var(--on-background);
+  font-size: var(--body-3);
+  overflow: hidden;
 }
 
 :focus-visible {
-    outline: 2px solid var(--white);
-    outline-offset: 2px;
+  outline: 2px solid var(--white);
+  outline-offset: 2px;
 }
 
 ::selection {
-    background-color: var(--white-alpha-8);
+  background-color: var(--white-alpha-8);
 }
 
 ::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--white-alpha-8);
-    border-radius: var(--radius-pill);
+  background-color: var(--white-alpha-8);
+  border-radius: var(--radius-pill);
 }
 
 .container {
@@ -158,4 +158,59 @@ body {
 
 .btn-primary[disabled]::before {
   display: none;
+}
+
+.card {
+  background-color: var(--surface);
+  color: var(--on-surface);
+}
+
+.card-lg {
+  border-radius: var(--radius-28);
+  padding: 20px;
+}
+
+.card-sm {
+  padding: 16px;
+  border-radius: var(--radius-16);
+}
+.heading {
+  color: var(--white);
+  font-size: var(--heading);
+  line-height: 1.1;
+}
+
+.title-1 {
+  font-size: var(--title-1);
+}
+
+.title-2 {
+  font-size: var(--title-2);
+  margin-block-end: 12px;
+}
+
+.ttile-3 {
+  font-size: var(--title-3);
+  font-weight: var(--weight-semiBold);
+}
+
+.body-1 {
+  font-size: var(--body-1);
+}
+
+.body-2 {
+  font-size: var(--body-2);
+  font-weight: var(--weight-semiBold);
+}
+
+.body-3 {
+  font-size: var(--body-3);
+}
+
+.label-1 {
+  font-size: var(--label-1);
+}
+
+.label-2 {
+  font-size: var(--label-2);
 }
