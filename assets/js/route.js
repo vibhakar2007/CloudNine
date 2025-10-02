@@ -1,6 +1,6 @@
 'use strict';
 
-import { updateWeather, error404 } from "./api.js";
+import { updateWeather, error404 } from "./app.js";
 
 const defaultLocation = "#/weather?lat=10.5845698&lon=77.2514456" //Udumalpet
 
